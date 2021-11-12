@@ -1,0 +1,294 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="113977157" file="E:\matlab学习资料\BEV\BEV_Economy.prj" location="E:\matlab学习资料\BEV" name="BEV_Economy" preferred-package-location="E:\matlab学习资料\BEV\BEV_Economy\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>BEV_Economy</param.appname>
+    <param.icon>${PROJECT_ROOT}\BEV_Economy_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\BEV_Economy_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\BEV_Economy_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\BEV_Economy_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\BEV_Economy_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>21.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\张鑫亮\Desktop\BWMT7{_EXGTXWIC63LU_0(J.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\BEV_Economy\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\BEV_Economy\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\BEV_Economy\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\BEV_Economy\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\BEV_Economy</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	 zhujiemian -? 
+	 zhujiemian varargin 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 varargin  input arguments</param.help.text>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\zhujiemian.m</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\a1.mat</file>
+      <file>${PROJECT_ROOT}\a2.mat</file>
+      <file>${PROJECT_ROOT}\a3.mat</file>
+      <file>${PROJECT_ROOT}\calculate.m</file>
+      <file>${PROJECT_ROOT}\chuzu.fig</file>
+      <file>${PROJECT_ROOT}\chuzu.m</file>
+      <file>${PROJECT_ROOT}\chuzu1.fig</file>
+      <file>${PROJECT_ROOT}\chuzu1.m</file>
+      <file>${PROJECT_ROOT}\chuzu11.fig</file>
+      <file>${PROJECT_ROOT}\chuzu11.m</file>
+      <file>${PROJECT_ROOT}\chuzu3.fig</file>
+      <file>${PROJECT_ROOT}\chuzu3.m</file>
+      <file>${PROJECT_ROOT}\chuzu4.fig</file>
+      <file>${PROJECT_ROOT}\chuzu4.m</file>
+      <file>${PROJECT_ROOT}\chuzu5.fig</file>
+      <file>${PROJECT_ROOT}\chuzu5.m</file>
+      <file>${PROJECT_ROOT}\chuzu6.fig</file>
+      <file>${PROJECT_ROOT}\chuzu6.m</file>
+      <file>${PROJECT_ROOT}\chuzu7.fig</file>
+      <file>${PROJECT_ROOT}\chuzu7.m</file>
+      <file>${PROJECT_ROOT}\chuzu8.fig</file>
+      <file>${PROJECT_ROOT}\chuzu8.m</file>
+      <file>${PROJECT_ROOT}\chuzu9.fig</file>
+      <file>${PROJECT_ROOT}\chuzu9.m</file>
+      <file>${PROJECT_ROOT}\CO2.fig</file>
+      <file>${PROJECT_ROOT}\CO2.m</file>
+      <file>${PROJECT_ROOT}\cost.fig</file>
+      <file>${PROJECT_ROOT}\cost.m</file>
+      <file>${PROJECT_ROOT}\cost1.fig</file>
+      <file>${PROJECT_ROOT}\cost1.m</file>
+      <file>${PROJECT_ROOT}\cost11.fig</file>
+      <file>${PROJECT_ROOT}\cost11.m</file>
+      <file>${PROJECT_ROOT}\cost2.fig</file>
+      <file>${PROJECT_ROOT}\cost2.m</file>
+      <file>${PROJECT_ROOT}\cost2__1.fig</file>
+      <file>${PROJECT_ROOT}\cost2__1.m</file>
+      <file>${PROJECT_ROOT}\cost2__2.fig</file>
+      <file>${PROJECT_ROOT}\cost2__2.m</file>
+      <file>${PROJECT_ROOT}\cost3.fig</file>
+      <file>${PROJECT_ROOT}\cost3.m</file>
+      <file>${PROJECT_ROOT}\cost4.fig</file>
+      <file>${PROJECT_ROOT}\cost4.m</file>
+      <file>${PROJECT_ROOT}\cost5.fig</file>
+      <file>${PROJECT_ROOT}\cost5.m</file>
+      <file>${PROJECT_ROOT}\cost6.fig</file>
+      <file>${PROJECT_ROOT}\cost6.m</file>
+      <file>${PROJECT_ROOT}\cost7.fig</file>
+      <file>${PROJECT_ROOT}\cost7.m</file>
+      <file>${PROJECT_ROOT}\cost8.fig</file>
+      <file>${PROJECT_ROOT}\cost8.m</file>
+      <file>${PROJECT_ROOT}\cost9.fig</file>
+      <file>${PROJECT_ROOT}\cost9.m</file>
+      <file>${PROJECT_ROOT}\dianchilaohua.m</file>
+      <file>${PROJECT_ROOT}\ditu.fig</file>
+      <file>${PROJECT_ROOT}\ditu.m</file>
+      <file>${PROJECT_ROOT}\EnergyConsumption.m</file>
+      <file>${PROJECT_ROOT}\EnergyConsumption_ht.m</file>
+      <file>${PROJECT_ROOT}\EnergyConsumption_lt.m</file>
+      <file>${PROJECT_ROOT}\fenshi.fig</file>
+      <file>${PROJECT_ROOT}\fenshi.m</file>
+      <file>${PROJECT_ROOT}\fenshi1.fig</file>
+      <file>${PROJECT_ROOT}\fenshi1.m</file>
+      <file>${PROJECT_ROOT}\fenshi11.fig</file>
+      <file>${PROJECT_ROOT}\fenshi11.m</file>
+      <file>${PROJECT_ROOT}\fenshi3.fig</file>
+      <file>${PROJECT_ROOT}\fenshi3.m</file>
+      <file>${PROJECT_ROOT}\fenshi4.fig</file>
+      <file>${PROJECT_ROOT}\fenshi4.m</file>
+      <file>${PROJECT_ROOT}\fenshi5.fig</file>
+      <file>${PROJECT_ROOT}\fenshi5.m</file>
+      <file>${PROJECT_ROOT}\fenshi6.fig</file>
+      <file>${PROJECT_ROOT}\fenshi6.m</file>
+      <file>${PROJECT_ROOT}\fenshi7.fig</file>
+      <file>${PROJECT_ROOT}\fenshi7.m</file>
+      <file>${PROJECT_ROOT}\fenshi8.fig</file>
+      <file>${PROJECT_ROOT}\fenshi8.m</file>
+      <file>${PROJECT_ROOT}\fenshi9.fig</file>
+      <file>${PROJECT_ROOT}\fenshi9.m</file>
+      <file>${PROJECT_ROOT}\fenshishouruc.fig</file>
+      <file>${PROJECT_ROOT}\fenshishouruc.m</file>
+      <file>${PROJECT_ROOT}\jiaotongdili.fig</file>
+      <file>${PROJECT_ROOT}\jiaotongdili.m</file>
+      <file>${PROJECT_ROOT}\jieguofenxi.fig</file>
+      <file>${PROJECT_ROOT}\jieguofenxi.m</file>
+      <file>${PROJECT_ROOT}\lilunbaigonglidianhao.fig</file>
+      <file>${PROJECT_ROOT}\lilunbaigonglidianhao.m</file>
+      <file>${PROJECT_ROOT}\pingheng.fig</file>
+      <file>${PROJECT_ROOT}\pingheng.m</file>
+      <file>${PROJECT_ROOT}\shiyongxing.fig</file>
+      <file>${PROJECT_ROOT}\shiyongxing.m</file>
+      <file>${PROJECT_ROOT}\shiyongxuqiu.fig</file>
+      <file>${PROJECT_ROOT}\shiyongxuqiu.m</file>
+      <file>${PROJECT_ROOT}\shujuchuli.fig</file>
+      <file>${PROJECT_ROOT}\shujuchuli.m</file>
+      <file>${PROJECT_ROOT}\sirenshouru.fig</file>
+      <file>${PROJECT_ROOT}\sirenshouru.m</file>
+      <file>${PROJECT_ROOT}\sirenshouru1.fig</file>
+      <file>${PROJECT_ROOT}\sirenshouru1.m</file>
+      <file>${PROJECT_ROOT}\sirenshouru2.fig</file>
+      <file>${PROJECT_ROOT}\sirenshouru2.m</file>
+      <file>${PROJECT_ROOT}\sirenshouru3.fig</file>
+      <file>${PROJECT_ROOT}\sirenshouru3.m</file>
+      <file>${PROJECT_ROOT}\sirenshouru4.fig</file>
+      <file>${PROJECT_ROOT}\sirenshouru4.m</file>
+      <file>${PROJECT_ROOT}\trans_time.m</file>
+      <file>${PROJECT_ROOT}\tupian.png</file>
+      <file>${PROJECT_ROOT}\v1.mat</file>
+      <file>${PROJECT_ROOT}\v2.mat</file>
+      <file>${PROJECT_ROOT}\v3.mat</file>
+      <file>${PROJECT_ROOT}\vend1.mat</file>
+      <file>${PROJECT_ROOT}\vend2.mat</file>
+      <file>${PROJECT_ROOT}\vend3.mat</file>
+      <file>${PROJECT_ROOT}\vstart1.mat</file>
+      <file>${PROJECT_ROOT}\vstart2.mat</file>
+      <file>${PROJECT_ROOT}\vstart3.mat</file>
+      <file>${PROJECT_ROOT}\wenduxishu.m</file>
+      <file>${PROJECT_ROOT}\wuliu.fig</file>
+      <file>${PROJECT_ROOT}\wuliu.m</file>
+      <file>${PROJECT_ROOT}\wuliu1.fig</file>
+      <file>${PROJECT_ROOT}\wuliu1.m</file>
+      <file>${PROJECT_ROOT}\wuliu11.fig</file>
+      <file>${PROJECT_ROOT}\wuliu11.m</file>
+      <file>${PROJECT_ROOT}\wuliu3.fig</file>
+      <file>${PROJECT_ROOT}\wuliu3.m</file>
+      <file>${PROJECT_ROOT}\wuliu4.fig</file>
+      <file>${PROJECT_ROOT}\wuliu4.m</file>
+      <file>${PROJECT_ROOT}\wuliu5.fig</file>
+      <file>${PROJECT_ROOT}\wuliu5.m</file>
+      <file>${PROJECT_ROOT}\wuliu6.fig</file>
+      <file>${PROJECT_ROOT}\wuliu6.m</file>
+      <file>${PROJECT_ROOT}\wuliu7.fig</file>
+      <file>${PROJECT_ROOT}\wuliu7.m</file>
+      <file>${PROJECT_ROOT}\wuliu8.fig</file>
+      <file>${PROJECT_ROOT}\wuliu8.m</file>
+      <file>${PROJECT_ROOT}\wuliu9.fig</file>
+      <file>${PROJECT_ROOT}\wuliu9.m</file>
+      <file>${PROJECT_ROOT}\zhujiemian.fig</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\BEV_Economy\for_testing" name="splash.png" optional="false">E:\matlab学习资料\BEV\BEV_Economy\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\BEV_Economy\for_testing" name="readme.txt" optional="true">E:\matlab学习资料\BEV\BEV_Economy\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\BEV_Economy\for_testing" name="BEV_Economy.exe" optional="false">E:\matlab学习资料\BEV\BEV_Economy\for_testing\BEV_Economy.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>E:\matlab2019_b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
