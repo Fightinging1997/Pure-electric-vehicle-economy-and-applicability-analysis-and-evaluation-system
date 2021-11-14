@@ -19,6 +19,6 @@ The pure electric vehicle economy and applicability analysis and evaluation syst
 
 
 # matlabGUI可以实现exe文件生成
-输入：deploytool->选择第一个->最上面添加`主界面`即可
+输入：deploytool->选择第一个->最上面添加`主界面`即可，其余文件系统会自动添加，点击`package`打包即可，可实现脱离matlab使用，但需要安装matlab runtime相应的包。
 
 ![image](https://user-images.githubusercontent.com/66704794/141669187-3d970fca-c621-49df-9317-d63aabe76847.png)
