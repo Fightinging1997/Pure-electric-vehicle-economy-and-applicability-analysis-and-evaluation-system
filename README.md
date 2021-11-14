@@ -11,6 +11,7 @@ The pure electric vehicle economy and applicability analysis and evaluation syst
 
 # 运行环境
 **matlab全版本**
+注：在一些分辨率不同的电脑上可能会存在一些窗口的分配不同问题！
 
 # 运行方法
 界面输入：`guide`->打开`main文件`下的`zhujiemian.m`文件运行即可！
