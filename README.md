@@ -7,6 +7,7 @@ The pure electric vehicle economy and applicability analysis and evaluation syst
 
 ![image](https://user-images.githubusercontent.com/66704794/141669274-da2ec5dc-da51-4aa3-902e-8e3f4fd3598f.png)
 
+默认是私人模式，1是出租，2是分时租赁，3是物流，提供4种模式分析。
 
 # 运行环境
 **matlab全版本**
