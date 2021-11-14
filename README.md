@@ -14,6 +14,9 @@ The pure electric vehicle economy and applicability analysis and evaluation syst
 # 运行方法
 界面输入：guide->打开main文件下的'zhujiemian.m'文件运行即可！
 
+![image](https://user-images.githubusercontent.com/66704794/141669349-88449359-551d-453b-bdd1-c3bcff166ae0.png)
+
+
 # matlabGUI可以实现exe文件生成
 输入：deploytool->选择第一个->最上面添加`主界面`即可
 
